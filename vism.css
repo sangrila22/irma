@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	max-width: 1200px;		
+}
+
+.picsumgallery {
+	width: 50%;
+	height: 600px;
+	display: flex;	
+}
+
+.gallery0 {
+	padding: 10px;
+	width: 50%;
+	height: 600px;
+	overflow: scroll;
+}
+
+.gallery3 {
+	display: none;
+	width: 50%;
+}
+
+.show {
+	display: block;
+}
+
+.gallery img {
+	padding: 15px;
+}
+
+p {
+	padding:5px;
+	font-size: 1.2536rem;
+	font-family: Roboto;
+	font-weight: 400;
+}
+
+img:hover {
+    border: 1px solid #333333;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
