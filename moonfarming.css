@@ -1,0 +1,677 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	/* outline: 1px solid pink; */
+}
+body {
+	margin: 0;
+}
+
+/*----------------------
+ NAVIGATION
+-----------------------*/
+.container {
+	max-width: 1110px;
+	width: 100%;
+	margin: 0 auto;	
+	
+}
+.flex-container {
+	display: flex;
+}
+
+.location {
+	background-color: #052501;
+	margin: 0 auto;
+	
+}
+.contact {
+	text-align: center;
+	width: 25%;
+	margin-top: 20px;
+	
+}
+
+
+.contact i {
+	color: #4bc714;
+	padding: 10px;
+	
+	
+}
+
+.contact a {
+	color: #ffffff;
+	font-size: 1.0625;
+	font-family: "Roboto";
+	font-weight: 400;
+	text-decoration-line: none;
+}
+
+
+/*----------------------
+ MAIN
+-----------------------*/
+.main {
+	background-image: url(../images/fields_02.jpg);
+	margin: 0 auto;
+	background-size: cover;
+}
+.navigation {
+	display: flex;
+	background-color: black;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.navigation ul{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	
+	
+
+}
+
+.navigation input {
+	margin: 20px -5px;
+	
+}
+.navigation a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 0.875rem;
+	font-family: "Roboto";
+}
+.navigation li {
+	padding: 10px 20px;	
+
+}
+
+.main button {
+	font-size: 1.0625rem;
+	font-family: "Roboto";
+	font-weight: 400;
+	padding: 3px 5px;
+	border-radius: 0%;
+	background-color: #052501;
+	border-color: #052501;
+}
+
+.main10 {
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	width: 550px;
+	padding: 10px;
+	
+}
+.main10 button {
+	padding: 25px 85px;
+	background-color: #052501;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1.0625rem;
+	color: #ffffff;
+
+}
+
+.main11 button {
+	padding: 25px 85px;
+	background-color: #ffffff;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1.0625rem;
+	color: #052501;
+
+}
+
+h1 {
+	font-family: "Poppins";
+	font-weight: 700;
+	font-size: 6.875rem;
+	color: #ffffff;
+}
+
+.main p {
+	font-family: "Poppins";
+	font-weight: 700;
+	font-size: 2.75rem;
+	color: #4bc714;
+}
+.main1 p {
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1.5625rem;
+	color: #ffffff;
+}
+
+
+
+
+/*----------------------
+ ABOUT MOON
+-----------------------*/
+
+.about {
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.aboutmoon {
+	display: flex;
+	margin: 0 auto;
+	
+}
+
+h2 {
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 2.5rem;
+	color: #163f03;
+}
+
+.farmandCompany  p {
+	font-family: "Roboto";
+	font-weight: 100;
+	font-size: 2.5rem;
+	color: #4bc714;
+}
+
+.farmandCompany p:after {
+	border-bottom: 1px solid black;
+    content: '';
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.aboutfarma1 p {
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1.0625rem;
+	color: #4c4a49;
+}
+
+.aboutfarma1 button {
+	padding: 25px 85px;
+	background-color: #052501;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1.0625rem;
+	color: #ffffff;
+	border-radius: .5em;
+
+}
+
+.aboutmoon1 img {
+	padding: 10px;
+
+}
+
+
+
+/*----------------------
+ HARVESTA
+-----------------------*/
+.harvesta {
+	background-color: #052501;
+	margin: 0 auto;
+}
+.column {
+	text-align: center;
+	width: 25%;
+	padding: 43px;
+	
+}
+.column i {
+	color: #ffffff;
+	font-size: 59px;
+}
+.column h3 {
+	color: #33e21d;
+	font-size: 3,187rem;
+	font-family: "Roboto";
+	font-weight: 700;
+	
+}
+.column p {
+	color: #ffffff;
+	font-size: 1,875rem;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+span {
+	color: #4bc714;
+	font-family: "Roboto";
+	font-weight: 100;
+}
+
+.specialoffers {
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+.special p {
+	border-bottom: 1px solid black;
+	text-align: center;
+	color: #163f03;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 3.125rem;
+	width: 35%;
+	margin: 50px 400px;	
+}
+
+/*----------------------
+ AGRICULTURE
+-----------------------*/
+.agriculture {
+	margin: 0 auto;
+	background-color: #052501;
+}
+
+.agricultureservices {
+	width: 33.333%;
+	margin: 0 auto;
+	width: calc(33.333% - 20px);
+}
+
+.agricultureservices button {
+	font-size: 1.0625rem;
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #052501;
+	border-radius: .5em;
+	padding: 20px 50px;
+	margin: 35px 50px;
+}
+
+
+.agricultureservices img {
+	width: 100%;
+	border-radius: 14%;	 
+	 
+}
+
+.agricultureservices h4 {
+	color: #ffffff;
+	font-size: 1.875rem;
+	font-family: "Roboto";
+	text-align: center;
+	font-weight: 400;
+}
+.n1 {
+	padding-top: 93px;	
+	
+}
+.n2 {
+	padding-top: 197px;	
+	
+}
+.n3 {
+	padding-top: 326px;
+	
+}
+
+.agricultureservices p {
+	font-size: 1.0625rem;
+	font-family: "Roboto";
+	color: #ffffff;
+	text-align: center;
+	font-weight: 400;
+}
+/*----------------------
+ MOON PRODUCTS
+-----------------------*/
+
+.moonproducts {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.moon {
+	background-color: #ffffff;
+	
+}
+
+.moon p {
+	border-bottom: 1px solid #000;
+	font-family: "Roboto";
+	font-size: 3.125rem;
+	font-weight: 400;
+	width: 40%;
+	margin: 45px;
+}
+
+
+.products {
+	margin: 0 auto;
+	background-color: #ffffff;
+	
+}
+
+
+.product1 {
+	position: relative;
+	padding: 10px;
+
+	
+}
+
+.product1 img {
+	width: 100%;
+	box-shadow: -16px -18px 135px -23px rgba(0,0,0,0.12);
+
+
+	
+}
+
+.product1 p {
+	font-size: 1.0625rem;
+	font-family: "Roboto";
+	color: #ffffff;
+	text-align: center;
+	font-weight: 400;
+	background-color: #052501;
+	width: calc(100% - 20px);
+	position: absolute;
+	top: 135px;	
+	background: rgba(2, 48, 9, 0.8);
+	padding: 20px;
+	
+	
+
+}
+/*----------------------
+ TESTIMONIALS
+-----------------------*/
+
+.testimonial {
+	margin: 0 auto;
+	max-width: 1110px;
+}
+.testimonial0 {
+margin: 0 auto;
+	
+}
+
+.testimonial1 img {
+	border: 20px solid #4bc714;
+	border-image-slice: 20;
+	margin: 10px 100px -70px 150px;
+	
+}
+
+.testi p {
+	font-size: 3.125rem;
+	font-family: "Roboto";
+	color: #0e2c01;
+	font-weight: 100;
+	text-align: center;
+}
+
+.testi p:after {
+	border-bottom: 1px solid #000;
+	content: '';
+    display: block;
+    width: 27%;
+	margin: 0 auto;
+}
+
+.johndue p {
+
+	font-size: 2rem;
+	font-family: "Roboto";
+	color: #0e2c01;
+	font-weight: 100;
+	margin: 0px 450px 0px;
+}
+
+.farmco p {
+	padding: 0px;
+    margin: 0px 90px 0px 80px
+}
+
+.review p{
+width: 50%;
+background-color: #052501;
+justify-content: right;
+font-family: "Roboto";
+color: #cfd2cf;
+font-size: 1.0625rem;
+font-weight: 400;
+margin: 0px 35px 20px 400px;
+padding:10px;
+}
+
+
+/*----------------------
+ GET IN TOUCH
+-----------------------*/
+.getinTouch {
+	text-align: center;
+}
+
+.getinTouch p {
+	font-size: 3.125rem;
+	font-family: "Roboto";
+	color: #0e2c01;
+	font-weight: 400;
+}
+.getinTouch p::after {
+	border-bottom: 1px solid #000;
+	content: '';
+    display: block;
+    width: 27%;
+	margin: 0 auto;
+}
+
+.farmco p {
+	text-align: center;
+	font-size: 1.25rem;
+	font-family: "Roboto";
+	color: #4bc714;
+	text-align: center;
+	font-weight: 400;
+	
+}
+
+/*----------------------
+ MAPS
+-----------------------*/
+
+
+.maps {
+	background-image: url(../images/map_06.jpg);
+	margin: 0 auto;
+	background-size: cover;
+	display: flex;
+	padding: 70px 0px 70px 300px;
+}
+
+.fillbox {	
+	display: flex;
+	flex-direction: column;
+	background-color: #0e2c01;
+	padding: 30px 15px 60px 15px;	
+}
+
+input {
+	font-size: 1.0625rem;
+	font-family: "Roboto";
+	color: #052501;
+	text-align: left;
+	font-weight: 400;
+	width: 300px;
+	margin: 10px;
+}
+
+/*----------------------
+ INFORMATION
+-----------------------*/
+
+.information {
+	margin: 0 auto;
+	background-color: #052501;
+}
+.information1 img {
+	padding: 20px;
+}
+.information1 p {
+	color: #ffffff;
+	font-family: "Noto Serif";
+	font-size: 1.0625rem;
+}
+
+.information1 ul {	
+	font-size: 1.0625rem;
+	font-family: "Roboto";
+	color: #ffffff;
+}
+.information1 button {
+	background-color: #3e7f21;
+	padding: 5px 30px;
+    margin: 5px;
+	color: #ffffff;
+	font-family: "Noto Serif";
+	font-size: 1.0625rem;
+	border-color:  #3e7f21;
+}
+
+.information1 {
+	width: 25%;
+	width: calc(25% - 10px);
+	padding: 15px;
+	
+}
+.quickLinks p {
+	font-size: 1.875rem;
+	font-family: "Noto Serif";
+	color: #ffffff;
+	font-weight: 400;
+	text-decoration: underline #3e7f21;
+	
+}
+.information1 i  {
+	color: #ffffff;
+	padding: 5px;
+}
+.information1 p {
+	color: #ffffff;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1.0625;
+	
+}	
+
+.information1 a {
+	color: #ffffff;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 1.0625;
+	text-decoration-line: none;
+	padding: 10px;
+	letter-spacing: 0.1em
+	
+}
+.information1 input {
+	width: auto;
+	border-radius: .5em;
+	padding: 5px 15px 8px 15px;
+    margin: 5px;
+}
+
+/*----------------------
+ FOOTER
+-----------------------*/
+
+.footer {
+	background-color: #4bc714;
+	margin: 0 auto;
+	padding: 28px;	
+}
+
+.rights {
+	text-align: center;
+}
+.rights a  {
+	text-decoration-line: none;
+	font-size: 1.0625;
+	font-family: Noto Serif;
+	font-weight: 400;
+	color: #ffffff;
+}
+	
+.rights i {
+	color: #ffffff;
+	padding: 2px;
+}
+
+@media (max-width: 600px) {
+	img {
+		max-width: 100%;
+		vertical-align: center;
+
+	}
+}
+@media (max-width: 600px) {
+	.moonproducts .testimonial .information {
+		width: 100%;
+		vertical-align: center;
+		font-size: 0.67rem;
+	}
+}
+
+@media (max-width: 600px) {
+.information p {
+			font-size: 0.67rem;
+			vertical-align: center;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.information1 ul {
+					font-size: 0.67rem;
+					vertical-align: center;
+				}
+			}
+
+@media (max-width: 600px) {
+ul {
+		font-size: 0.35rem;
+		vertical-align: center;
+	}
+}
+
+
+
+@media (max-width: 600px) {
+	.information input {
+				font-size: 0.67rem;
+				vertical-align: center;
+			}
+		}
+@media (max-width: 600px) {
+	a {
+		font-size: 0.67rem;
+		vertical-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.main1 p {
+		font-size: 0.99rem;
+		vertical-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.product1 p {
+		width: 33.333%;
+		font-size: 0.67rem;
+	}
+	.product1 img {
+		horizontal-align: center;
+	}
+}
